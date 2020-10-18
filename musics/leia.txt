@@ -1,0 +1,3 @@
+Não posso deixar as músicas originais aqui por motivos de copyright.
+
+Mas basta colar uma aqui e ir no arquivo "script.js" e mudar o nome do arquivo.

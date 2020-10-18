@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="main" lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>dani linda</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="images/play_icon.png">
+</head>
+<body class="old-body" onload="pauseTrack()">
+	<div class="container">
+		<img id="cat-id" class="cat" src="images/cat.gif" alt="meow!" onclick="meow()"></img>
+
+		<div class="player">
+			<div class="track-name">Track Name</div>
+			<div class="track-artist">Track Artist</div>
+		</div>
+
+		<div class="buttons">
+			<div class="prev-track" onclick="prevTrack()"></div>
+            <div class="playpause-track" onclick="playpauseTrack() "></div>
+            <div class="next-track" onclick="nextTrack()"></div>
+		</div>
+
+		<div class="slider_container">
+         	<div class="current-time">00:00</div>
+        	<input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+        	<div class="total-duration">00:00</div>
+        </div>
+	</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
